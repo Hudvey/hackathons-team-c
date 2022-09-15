@@ -13,7 +13,7 @@
         "styled-components": "^4.2.0"
     },
     "scripts": {
-        "start": "node client/server.js",
+        "start": "cd client && react-scripts start && node start && cd.. && cd server && yarn start",
         "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
     },
     "engines": {
