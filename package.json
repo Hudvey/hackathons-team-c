@@ -1,0 +1,22 @@
+{
+    "name": "client",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "axios": "^0.18.0",
+        "bootstrap": "^4.3.1",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-router-dom": "^5.0.0",
+        "react-scripts": "3.0.1",
+        "react-table": "^6.10.0",
+        "styled-components": "^4.2.0"
+    },
+    "scripts": {
+        "start": "node client/server.js",
+        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
+    },
+    "engines": {
+        "node": "10.16.0"
+    }
+}
